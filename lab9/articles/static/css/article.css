@@ -1,0 +1,149 @@
+body {
+ background: #1abc9c;
+ font-family: Tahoma, Arial, sans-serif;
+ color: #ffffff;
+ margin-top: 2%
+}
+.logo{
+ display: block;
+ width: 318px;
+ position: relative;
+ padding-top: 10px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.article img{
+ display: inline;
+ width: 318px;
+ margin-right: auto;
+}
+.text-and-parallax{
+	margin-left:10px;
+	width:100%
+}
+.header{
+	background-color: #caeae4;
+}
+.one-post{
+	color: #0b5d4d;
+	background-color: #96dacd;
+    padding-left: 10px;
+	padding-right:10px;
+}
+.register-link{
+	font-size:24pt;
+}
+.service-title{
+	margin-bottom:150px;
+	font-size:36pt;
+	color: #0b5d4d;
+	text-align:center;
+}
+div a:nth-child(3){
+	float:right;
+	margin-right:28px;
+}
+div a:nth-child(2){
+	float:left;
+	margin-left:10px;
+}
+.icons-for-parallax {
+ width:0%;
+ margin-top: 30px;
+ height: 530px;
+ position: relative;
+}
+.icons-for-parallax img {
+ /* здесь находятся общие для всех картинок стили */
+ position: absolute;
+ top: 0;
+}
+.icon-for-parallax-first {
+ margin-top: 200px;
+ width:200px;
+ z-index: 3; /* эта картинка на переднем плане, у неё больший z-index
+*/
+}
+.icon-for-parallax-second {
+ width: 175px; /* уменьшить ширину для картинки, чтобы визуально */
+ /* находилась дальше для пользователя */
+ margin-top: 100px; /* эта картинка слегка смещена вправо и вниз */
+ margin-left: 80px; /* за счет левой и верхней границ */
+ z-index: 2;
+}
+.icon-for-parallax-third{
+ width: 150px;
+ margin-left: 160px;
+ z-index: 1; /* эта картинка на заднем плане, у неё меньший z-index */
+}
+
+.content div{
+	margin-top: 10px;
+}
+.header-text-area{
+	float:left;
+	width:60%;
+}
+.header {
+}
+.one-post.folded .article-author,.one-post.folded .article-created-date,.one-post.folded .article-text{
+	display:none;
+}
+.one-post.folded {
+}
+.post-titles{
+	display:inline;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%
+}
+.article-text{
+	display:inline-block;
+}
+.titles-and-swers{
+	display:inline-block;
+	width:100%;
+}
+.article-info{
+	display:inline-block;
+	width:100%
+}
+.fold-button{
+	cursor: pointer;
+    text-decoration: underline;
+	display:inline;
+	float: right;
+}
+.one-post{
+	position:relative;
+}
+.one-post-shadow {
+ position: absolute;
+ opacity:0;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background: black;
+ z-index: -1; /* это свойство «отодвигает» элемент на задний план */
+}
+
+.archive {
+ margin-left: 200px;
+ margin-right: 200px;
+}
+.article {
+ margin-left: 120px;
+ margin-right: 120px;
+}
+.article-author{
+	font-family: apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	float: left;
+}
+.article-created-date{
+	float: right;
+}
+div a {
+ color: #0b5d4d;
+}
